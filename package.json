@@ -45,7 +45,7 @@
     "iqdb-client": "^2.0.0",
     "npm": "^8.19.2",
     "roboto-fontface": "*",
-    "sharp": "^0.31.1",
+    "sharp": "^0.33.5",
     "sharp-phash": "^2.0.0",
     "sqlite3": "^5.1.2",
     "tegownitsa": "file:",
