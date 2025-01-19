@@ -137,4 +137,11 @@ npm start
 - [x] Refine search interface for tags and other texts of images.
 - [x] Mark requested tag sources of a file as visited to prevent double requesting.
 - [x] Add tag extraction when a file imported by URL.
-
+- [ ] Do not allow updates of the application to erase file archive.
+- [ ] Add import API for AI Booru
+- [ ] Add import API for Civit AI
+- [ ] Add import API for local neuro-generated files
+- [ ] Create the Flask/Python local subserver.
+- [ ] Adopt character recognition into project
+- [ ] Adopt a tag heatmap
+- [ ] Adopt aesthetic scorer
