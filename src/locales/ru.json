@@ -1,0 +1,240 @@
+{
+  "context_menu": {
+    "copy_image_to_clipboard": "Скопировать картинку в буфер обмена",
+    "edit_tag": "Редактировать тег",
+    "inspect_element": "Инспектировать элемент",
+    "change_tag_namespace": "Изменить пространство имен тега"
+  },
+  "main_menu": {
+    "import_image_from_file": "Импортировать картинку из файла…",
+    "import_image_from_folder": "Загрузить картинки из папки…",
+    "import_image_from_url": "Скачать картинку по прямой ссылке…",
+    "import_image_from_clipboard": "Скопировать картинку внутрь из буфера обмена…",
+    "quit": "Выход",
+    "website": "Вебсайт…",
+    "about": "О Теговнице…",
+    "source_code": "Исходный код…",
+    "report": "Предложить исправление…",
+    "preferences": "Настройки…",
+    "settings": "Настройки…",
+    "scan_files": "Сканировать выбранные картинки",
+    "find_dups": "Найти дубликаты",
+    "load_tags_from_iqbd": "Искать теги через IQDB для выбранных файлов",
+    "reload": "Перезагрузить",
+    "force_reload": "Перезагрузить с усилием",
+    "toggle_developer_tools": "Открыть инструменты разработчика",
+    "actual_size": "Сбросить масштаб",
+    "zoom_in": "Увеличить масштаб",
+    "zoom_out": "Уменьшить масштаб",
+    "toggle_full_screen": "Полноэкранный режим",
+    "file": "Файл",
+    "edit": "Правка",
+    "view": "Вид",
+    "help": "Помощь",
+    "load_tags_from_saucenao": "Загрузить теги через Saucenao для выбранных файлов",
+    "check_updates": "Проверить обновления",
+    "load_tags_from_kheina": "Загрузить теги с Kheina для текущих файлов..."
+  },
+  "about": {
+    "copyright": "Сделано Тауралоке Эстеру и контрибьютерами Гитхаба.",
+    "text": "Ещё один каталогизатор картинок."
+  },
+  "main_window": {
+    "duplicate_files": "Дубликаты файлов",
+    "no_duplicates_found": "Дубликатов не найдено.",
+    "files": "Файлы",
+    "tags": "Теги",
+    "similarity": "Сходство",
+    "remove_this_file": "Удалить этот файл?",
+    "no_files_to_scan": "Нет новых файлов для сканирования",
+    "found_x_files": "Файлы не найдены. | Найден {n} файл. | Найдено {n} файла. | Найдено {n} файлов.",
+    "author_urls": "Ссылки на автора",
+    "pollee_file_sources": "Опрошенные источники тегов",
+    "no_files_to_tag_search": "Все файлы в запросе уже проверены на наличие тегов."
+  },
+  "button": {
+    "cancel": "Отмена",
+    "upload": "Загрузить",
+    "close": "Закрыть",
+    "remove": "Удалить",
+    "restore": "Восстановить",
+    "add": "Добавить",
+    "back": "Вернуться",
+    "predict_tags": "Угадать теги нейросетью",
+    "hide_predicted_tags": "Скрыть прогноз",
+    "previous": "К предыдущему",
+    "next": "К следующему"
+  },
+  "toast": {
+    "preferences_saved": "Настройки сохранены",
+    "file_has_removed": "Файл удален",
+    "unknown_scan_error": "Что-то не так со сканированием...",
+    "file_has_imported": "Файл был скачан с '{0}'.",
+    "cannot_copy_file_from_url": "Невозможно скопировать файл из {0}.",
+    "cannot_upload_file_from_url": "Не удается загрузить файл из {0}.",
+    "form_cancelled": "Форма отменена",
+    "file_has_imported_from_clipboard": "Файл импортирован из буфера обмена.",
+    "clipboard_empty": "Буфер обмена не содержит картинку.",
+    "file_path_has_imported": "Файл {0} импортирован.",
+    "folder_path_has_imported": "Папка {0} импортирована.",
+    "tag_unlinked_from_file": "Тег '{0}' отсоединен от этого файла.",
+    "no_new_files_in_folder": "Нет новых файлов в папке",
+    "file_improved": "Загружена другая версия этого файла.",
+    "file_not_improved": "Что-то не так с загрузкой по этому URL",
+    "unknown_duplicate_error": "Неизвестная ошибка поиска дубликатов",
+    "updates_unavailable": "Не нашлось обновлений приложения",
+    "error_in_updater": "Ошибка загрузки обновлений приложения",
+    "tag_removed": "Тег удален."
+  },
+  "form_search_files": {
+    "find_by_tags_print_and_choose": "Поиск по тегам: печатайте и выбирайте"
+  },
+  "form_add_new_tag_to_file": {
+    "type_tag_title": "Введите название нового тега для добавления"
+  },
+  "dialog_tag_editor": {
+    "tag_linked_to_x_files": "Тег не связан с файлами.|Тег связан с {n} файлом.|Тег связан с {n} файлами.|Тег связан с {n} файлами.",
+    "edit_tag_x": "Редактировать тег #{0}",
+    "remove_locale": "Удалить синоним",
+    "add_new_row": "Добавить строку",
+    "update_tag": "Обновить тег",
+    "remove_tag": "Удалить тег",
+    "confirm_removing": "Вы уверены?",
+    "wrong_tag_removing": "Что-то пошло не так во время удаления тега."
+  },
+  "dialog_show_file": {
+    "exif_data": "Данные EXIF",
+    "create_data": "Дата создания:",
+    "coordinates": "Координаты",
+    "maked_by": "Сделано",
+    "recognized_text_on_image": "распознанный текст на изображении",
+    "click_to_floppy_to_save_changes": "Нажмите на дискету, чтобы сохранить изменения",
+    "sources": "Источники",
+    "caption_updated_for_file_x": "Текст обновлен для файла #{0}",
+    "wait_for_neuronet_files": "Данные для прогнозов не найдены. Вы можете дождаться загрузки файлов нейронной сети или отменить ее.",
+    "neuronet_files_still_loading": "Файлы для нейросети еще загружаются.",
+    "fullsizes": "Найденные копии в Интернете",
+    "size_parameters": "Размеры изображения",
+    "improve_file": "Скачать и заменить",
+    "cannot_process_by_neuronet": "Что-то не так - не удаётся распознать теги",
+    "remove_file": "Удалить файл",
+    "wrong_file_removing": "Что-то не так при удалении файла"
+  },
+  "settings": {
+    "application": "Приложение",
+    "tesseract_ocr": "Тессеракт OCR",
+    "tag_sources": "Источники тегов",
+    "duplicates": "Дубликаты",
+    "theme_light_dark": "Светлая/ночная тема",
+    "this_toggles_the_dark_theme": "Это переключает темную тему",
+    "choose_interface_language": "Выберите язык интерфейса",
+    "language": "Язык",
+    "enable_auto_updates": "Включить автоматические обновления",
+    "page_segmentation_mode": "Режим сегментации страницы",
+    "engine_mode": "Режим движка",
+    "tesseract_languages": "Языки",
+    "enrich_tags_strategies": "Стратегии обогащения пула тегов из внешних поисковых систем",
+    "strategy": "Стратегия",
+    "iqdb_similarity_threshold": "Порог сходства для результатов IQDB (чем выше, тем жёстче фильтр)",
+    "saucenao_key": "Ключ api Saucenao",
+    "api_key_saucenao_hint": "Вам понадобится ключ API для поиска по Saucenao API",
+    "iqdb_cooldown": "Промежуток между запросами к серверу IQDB.org",
+    "similarity_threshold_hint": "Порог подобия для поиска локальных дубликатов (чем выше, тем жёстче фильтр).",
+    "tag_source": {
+      "strategies": {
+        "catch_first": "Захватить первый результат в выдаче",
+        "catch_all": "Захватить все результаты из выдачи"
+      }
+    },
+    "languages": {
+      "chinese_trad": "Китайский (традиц.)",
+      "chinese_trad_vert": "Китайский (традиц., вертикальный)",
+      "english": "Английский",
+      "french": "Французский",
+      "japanese": "Японский",
+      "japanese_vertical": "Японский (вертикальный)",
+      "portuguese": "Португальский",
+      "russian": "Русский",
+      "spanish": "Испанский",
+      "chinese_simpl": "Китайский (упрощ.)",
+      "chinese_simpl_vert": "Китайский (упрощ., вертикальный)"
+    },
+    "import_exif_tags_as_tags": "Извлекать теги exif в пул тегов индексируемого изображения",
+    "dialog": {
+      "title": "Настройки"
+    },
+    "saucenao_similarity_threshold": "Порог сходства поиска через Saucenao",
+    "saucenao_limit_message": "Вы можете проверить свой текущий дневной лимит на Saucenao",
+    "here": "здесь",
+    "e621_username": "Имя пользователя E621",
+    "e621_username_hint": "Это API не используется без регистрации",
+    "tagSourcesTab": {
+      "common": "Общее",
+      "iqdb": "IQDB",
+      "saucenao": "Saucenao",
+      "e621": "е621",
+      "deviantart": "Девиантарт",
+      "kheina": "Kheina",
+      "furaffinity": "Furaffinity"
+    },
+    "recursive_directory_import": "При импорте из папки рекурсивно включать подпапки",
+    "search_tips": "Подсказки тегов",
+    "search_tips_hint": "Закладки тегов под строкой поиска",
+    "saucenao_limits": "Сегодня у вас осталось {0}/{1} запросов.",
+    "e621_account_message": "Вам нужно имя пользователя учетной записи для получения тегов от E621. Вы можете зарегистрировать аккаунт ",
+    "deviantart_account_message": "Вам необходимо зарегистрировать приложение, чтобы получать теги с Deviantart. Вы можете зарегистрироваться",
+    "deviantart_client_id": "client_id",
+    "deviantart_client_id_hint": "Идентификатор приложения",
+    "deviantart_client_token": "client_secret",
+    "deviantart_client_token_hint": "Секретное слово приложения",
+    "kheina_similarity_threshold": "Порог подобия для Kheina",
+    "furaffinity_cookies": "Куки от Furaffinity",
+    "show_nsfw_files": "Показывать файлы NSFW ( ͡° ͜ʖ ͡°)",
+    "dialog_show_file": {
+      "is_safe": "SFW"
+    },
+    "page_limit": "Количество изображений на страницу",
+    "search": "Поиск"
+  },
+  "list": {
+    "empty": "Нет тегов в списке"
+  },
+  "jobs": {
+    "time_left": "Прогноз оставшегося времени",
+    "done": "Задача выполнена",
+    "scan_selected_files": "Распознать текст",
+    "cancel": "Отменить это задание",
+    "import_folder": "Импорт папки",
+    "downloading-archive": "Загрузка '{0}'",
+    "unpacking-archive": "Распаковка архива '{0}'",
+    "searching_dublicates": "Поиск дубликатов",
+    "download_updates": "Загрузка обновлений",
+    "tag_retrieving": "Получение тегов"
+  },
+  "tags": {
+    "namespaces": {
+      "GENERAL": "Разное",
+      "CREATOR": "Автор",
+      "SERIES": "Франшиза",
+      "META": "Мета",
+      "CHARACTER": "Персонаж",
+      "STYLE": "Стиль",
+      "GENRE": "Жанр",
+      "SPECIE": "Биологический вид"
+    },
+    "name": "Название",
+    "score": "Оценка",
+    "namespace": "Категория",
+    "sources": {
+      "all": "Все",
+      "label": "Фильтровать источники"
+    }
+  },
+  "image": {
+    "width": "Ширина",
+    "height": "Высота"
+  },
+  "dialog_tag_namespace": {
+    "choose_namespace": "Выберите пространство имен тега"
+  }
+}

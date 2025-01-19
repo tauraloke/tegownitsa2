@@ -1,0 +1,240 @@
+{
+  "context_menu": {
+    "copy_image_to_clipboard": "Copy image to clipboard",
+    "edit_tag": "Edit tag",
+    "inspect_element": "Inspect element",
+    "change_tag_namespace": "Change a namespace of the tag"
+  },
+  "main_menu": {
+    "import_image_from_file": "Import image from file…",
+    "import_image_from_folder": "Import image from folder…",
+    "import_image_from_url": "Import image from direct URL…",
+    "import_image_from_clipboard": "Import image from clipboard…",
+    "quit": "Quit",
+    "website": "Website",
+    "about": "About Tegownitsa",
+    "source_code": "Source code",
+    "report": "Report an Issue…",
+    "preferences": "Preferences…",
+    "settings": "Settings…",
+    "scan_files": "Scan text on current files",
+    "find_dups": "Find duplicates",
+    "load_tags_from_iqbd": "Load tags from IQDB for current files",
+    "reload": "Reload",
+    "force_reload": "Force Reload",
+    "toggle_developer_tools": "Toggle Developer Tools",
+    "actual_size": "Actual size",
+    "zoom_in": "Zoom in",
+    "zoom_out": "Zoom out",
+    "toggle_full_screen": "Toggle Full Screen",
+    "file": "File",
+    "edit": "Edit",
+    "view": "View",
+    "help": "Help",
+    "load_tags_from_saucenao": "Load tags from Saucenao for current files",
+    "check_updates": "Check updates",
+    "load_tags_from_kheina": "Load tags from Kheina for current files..."
+  },
+  "about": {
+    "copyright": "Created by Tauraloke Esteru and Github contributors.",
+    "text": "Yet another image tag manager."
+  },
+  "main_window": {
+    "duplicate_files": "Duplicate images",
+    "no_duplicates_found": "No duplicates found.",
+    "files": "Files",
+    "tags": "Tags",
+    "similarity": "Similarity",
+    "remove_this_file": "Remove this file?",
+    "no_files_to_scan": "No new files to scan",
+    "found_x_files": "No files found. | Found {n} file. | Found {n} files.",
+    "author_urls": "Author links",
+    "pollee_file_sources": "Pollee tag sources",
+    "no_files_to_tag_search": "All files in query are already inspected for tags."
+  },
+  "button": {
+    "close": "Close",
+    "cancel": "Cancel",
+    "upload": "Upload",
+    "remove": "Remove",
+    "restore": "Restore",
+    "add": "Add",
+    "back": "Go back",
+    "predict_tags": "Predict tags by neuronet",
+    "hide_predicted_tags": "Hide predictions",
+    "previous": "To previous one",
+    "next": "To next one"
+  },
+  "toast": {
+    "preferences_saved": "Preferences saved",
+    "file_has_removed": "File has been removed",
+    "unknown_scan_error": "Something wrong with scanning...",
+    "file_has_imported": "File has imported from url '{0}'.",
+    "cannot_copy_file_from_url": "Can't copy file from {0}.",
+    "cannot_upload_file_from_url": "Can't upload file from {0}.",
+    "form_cancelled": "Form is cancelled",
+    "file_has_imported_from_clipboard": "File has imported from a clipboard.",
+    "clipboard_empty": "Clipboard is empty.",
+    "file_path_has_imported": "File {0} has imported.",
+    "folder_path_has_imported": "Folder {0} has imported.",
+    "tag_unlinked_from_file": "Tag '{0}' has unlinked from this file.",
+    "no_new_files_in_folder": "No new file in a folder",
+    "file_improved": "The file has been improved.",
+    "file_not_improved": "Something wrong with downloading by that url",
+    "unknown_duplicate_error": "Unknown duplicate searching error",
+    "updates_unavailable": "Updates are unavailable",
+    "error_in_updater": "Error in updater",
+    "tag_removed": "The tag has been removed."
+  },
+  "form_search_files": {
+    "find_by_tags_print_and_choose": "Find by tags: print and choose"
+  },
+  "form_add_new_tag_to_file": {
+    "type_tag_title": "Type a tag title to add a new one"
+  },
+  "dialog_tag_editor": {
+    "remove_locale": "Remove locale",
+    "edit_tag_x": "Edit tag #{0}",
+    "tag_linked_to_x_files": "There is no linked files for tags.|Tag is linked to {n} file.|Tag is linked to {n} files.",
+    "add_new_row": "Add a new row",
+    "update_tag": "Update the tag",
+    "remove_tag": "Remove the tag",
+    "confirm_removing": "Are you sure?",
+    "wrong_tag_removing": "Something wrong while the tag was removing."
+  },
+  "dialog_show_file": {
+    "exif_data": "Exif data",
+    "create_data": "Create date:",
+    "coordinates": "Coordinates",
+    "maked_by": "Maked by",
+    "recognized_text_on_image": "recognized text on image",
+    "click_to_floppy_to_save_changes": "Click to floppy to save changes",
+    "sources": "Sources",
+    "caption_updated_for_file_x": "Caption updated for file #{0}",
+    "wait_for_neuronet_files": "No data found to predictions. You can wait for loading neural network files or cancel its.",
+    "neuronet_files_still_loading": "Files for a neuronet are still loading.",
+    "fullsizes": "Found copies in the Internet",
+    "size_parameters": "Image sizes",
+    "improve_file": "Download and change",
+    "cannot_process_by_neuronet": "Something wrong - cannot recognize tags",
+    "remove_file": "Remove the file",
+    "wrong_file_removing": "Something wrong while file was removing"
+  },
+  "settings": {
+    "application": "Application",
+    "tesseract_ocr": "Tesseract OCR",
+    "tag_sources": "Tag sources",
+    "duplicates": "Duplicates",
+    "theme_light_dark": "Theme Light/Dark",
+    "this_toggles_the_dark_theme": "This toggles the dark theme",
+    "choose_interface_language": "Choose interface language",
+    "language": "Language",
+    "enable_auto_updates": "Enable auto updates",
+    "page_segmentation_mode": "Page Segmentation Mode",
+    "engine_mode": "Engine Mode",
+    "tesseract_languages": "Languages",
+    "enrich_tags_strategies": "Strategies to enrich tag pool from outer search engines",
+    "strategy": "Strategy",
+    "iqdb_similarity_threshold": "Similarity threshold for IQDB results (higher is a stronger filter)",
+    "saucenao_key": "Saucenao key",
+    "api_key_saucenao_hint": "You need an API key to seek by Saucenao API",
+    "iqdb_cooldown": "Cooldown of requests to IQDB.org server",
+    "similarity_threshold_hint": "Similarity threshold for finding local duplicates (higher is stronger filter).",
+    "tag_source": {
+      "strategies": {
+        "catch_first": "Catch the first one",
+        "catch_all": "Catch all related ones"
+      }
+    },
+    "languages": {
+      "chinese_trad": "Chinese (trad.)",
+      "chinese_trad_vert": "Chinese (trad., vertical)",
+      "chinese_simpl": "Chinese (simpl.)",
+      "chinese_simpl_vert": "Chinese (simpl., vertical)",
+      "english": "English",
+      "french": "French",
+      "japanese": "Japanese",
+      "japanese_vertical": "Japanese (vertical)",
+      "portuguese": "Portuguese",
+      "russian": "Russian",
+      "spanish": "Spanish"
+    },
+    "import_exif_tags_as_tags": "Extract exif tags to tag pool of imported image",
+    "dialog": {
+      "title": "Preferences"
+    },
+    "saucenao_similarity_threshold": "Saucenao similarity threshold",
+    "saucenao_limit_message": "You can check your Saucenao current daily limits",
+    "here": "here",
+    "e621_username": "E621 username",
+    "e621_username_hint": "This API is not used without registration",
+    "tagSourcesTab": {
+      "common": "Common",
+      "iqdb": "IQDB",
+      "saucenao": "Saucenao",
+      "e621": "e621",
+      "deviantart": "Deviantart",
+      "kheina": "Kheina",
+      "furaffinity": "Furaffinity"
+    },
+    "recursive_directory_import": "Recursive directory import",
+    "search_tips": "Search tips",
+    "search_tips_hint": "Tag shortcuts under search string",
+    "saucenao_limits": "You have {0}/{1} requests today.",
+    "e621_account_message": "You need an account username for grab tags from E621. You can register an account",
+    "deviantart_account_message": "You need to register an app to grab tags from Deviantart. You can register ",
+    "deviantart_client_id": "client_id",
+    "deviantart_client_id_hint": "Application ID",
+    "deviantart_client_token": "client_secret",
+    "deviantart_client_token_hint": "Application secret word",
+    "kheina_similarity_threshold": "Kheina similarity threshold",
+    "furaffinity_cookies": "Furaffinity cookies",
+    "show_nsfw_files": "Show NSFW files ( ͡° ͜ʖ ͡°)",
+    "dialog_show_file": {
+      "is_safe": "SFW"
+    },
+    "page_limit": "Image limit per page",
+    "search": "Search"
+  },
+  "list": {
+    "empty": "No tags in list"
+  },
+  "jobs": {
+    "time_left": "Remaining Time Prediction",
+    "done": "Job is done",
+    "scan_selected_files": "Scan selected files",
+    "cancel": "Cancel this job",
+    "import_folder": "Importing folder",
+    "downloading-archive": "Downloading '{0}'",
+    "unpacking-archive": "Unpacking archive '{0}'",
+    "searching_dublicates": "Searching duplicates",
+    "download_updates": "Downloading updates",
+    "tag_retrieving": "Tags retrieving"
+  },
+  "tags": {
+    "namespaces": {
+      "GENERAL": "General",
+      "CREATOR": "Creator",
+      "SERIES": "Series",
+      "META": "Meta",
+      "CHARACTER": "Character",
+      "STYLE": "Style",
+      "GENRE": "Genre",
+      "SPECIE": "Specie"
+    },
+    "name": "Name",
+    "score": "Score",
+    "namespace": "Namespace",
+    "sources": {
+      "all": "All",
+      "label": "Filter sources"
+    }
+  },
+  "image": {
+    "width": "Width",
+    "height": "Height"
+  },
+  "dialog_tag_namespace": {
+    "choose_namespace": "Choose a tag namespace"
+  }
+}
